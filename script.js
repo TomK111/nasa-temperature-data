@@ -24,12 +24,16 @@ async function chartIt() {
             }]
         },
         options: {
+            animation: {
+                duration: 3000,
+            },
             scales: {
                 yAxes: [
-                    {
+                    { 
                     ticks: {
                         easing: 'linear',
-                        responsive: true,
+                            responsive: true,
+                        fontColor:"white",
                         callback: function (value, index, values) {
                             return value + '°';
                         }
