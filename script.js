@@ -32,7 +32,7 @@ async function chartIt() {
                     { 
                     ticks: {
                         easing: 'linear',
-                            responsive: true,
+                        responsive: true,
                         fontColor:"white",
                         callback: function (value, index, values) {
                             return value + '°';
