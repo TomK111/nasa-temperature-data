@@ -1,39 +1,39 @@
 body{
-    background-color: black;
+    background-color: lightgrey;
     opacity: 1;
 }
 
 p{
-    color: white;
+    color: black;
 }
 
 h1{
-    color: white;
+    color: black;
     text-align: center;
 }
 
 h4{
-    color: white;
+    color: black;
 }
 
 div{
     text-align: center;
-    color: white;
+    color: black;
     text-decoration: underline;
 }
 
 a:link{
-    color: white;
+    color: black;
 }
 
 a:hover{
-    color: white;
+    color: black;
 }
 
 a:visited{
-    color: white;
+    color: black;
 }
 
 a:active{
-    color: white;
+    color: black;
 }
