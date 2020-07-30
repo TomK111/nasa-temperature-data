@@ -16,11 +16,11 @@ async function chartIt() {
                 label: 'Combined Land-Surface Air and Sea-Surface Temperature C°',
                 data: ytemps,
                 fill: true,
-                backgroundColor: ['rgba(255,150, 0, 1)'],
+                backgroundColor: ['rgba(0, , 20, 1)'],
                 borderColor: [
-                    ['rgba(255, 0, 0, 1)'],
+                    ['rgba(0, 0, 0, 1)'],
                 ],
-                borderWidth: 3
+                borderWidth: 1
             }]
         },
         options: {
@@ -33,7 +33,7 @@ async function chartIt() {
                     ticks: {
                         easing: 'linear',
                         responsive: true,
-                        fontColor:"black",
+                            fontColor: "black",
                         callback: function (value, index, values) {
                             return value + '°';
                         }
