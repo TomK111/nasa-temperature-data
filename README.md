@@ -2,4 +2,4 @@
 
 # See Live Demo --> https://giss-temperature-data.netlify.app/
 
-<img src="nasa_graph.png" height="600" width="800">
+<img src="nasa_graph.png" height="400" width="1000">
