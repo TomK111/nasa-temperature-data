@@ -55,7 +55,6 @@ async function chartIt() {
             xlabels.push(year);
             const temp = columns[1];
             ytemps.push(parseFloat(temp)+14);
-            console.log(year, temp);
         })
     }
 }
