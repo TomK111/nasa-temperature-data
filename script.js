@@ -18,7 +18,7 @@ async function chartIt() {
                 fill: true,
                 backgroundColor: ['rgba(0, , 20, 1)'],
                 borderColor: [
-                    ['rgba(0, 0, 0, 1)'],
+                    ['rgba(0, 0, 255, 1)'],
                 ],
                 borderWidth: 1
             }]
