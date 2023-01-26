@@ -15,10 +15,10 @@ async function chartIt() {
             datasets: [{
                 label: 'Combined Land-Surface Air and Sea-Surface Temperature C°',
                 data: ytemps,
-                fill: true,
-                backgroundColor: ['rgba(0, 0, 255, 1)'],
+                fill: false,
+                backgroundColor: ['rgba(20, 20, 20, 20)'],
                 borderColor: [
-                    ['rgba(0, 0, 0, 1)'],
+                    ['rgba(20, 20, 20, 20)'],
                 ],
                 borderWidth: 1
             }]
